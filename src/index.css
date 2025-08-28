@@ -1,0 +1,38 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(255, 0, 251);
+    cursor: pointer;
+}
+
+.main{
+    height: auto;
+    width: 700px;
+    border: 1px solid rgb(19, 176, 229);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.items{
+    border: 1px solid rgb(10, 228, 94);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
